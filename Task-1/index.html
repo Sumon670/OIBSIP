@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .carousel-inner img {
+        width: 100%;
+        height: 570px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a class="active" href="#">Travel X</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Photos</a></li>
+            <li style="float:right"><a href="#">Book Now</a></li>
+        </ul>
+    </header>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/andaman.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h1>Andaman</h1>
+                    <h5 style="font-weight: bold;">The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are known for their palm-lined, white-sand beaches, mangroves and tropical rainforests. Coral reefs supporting marine life such as sharks and rays make for popular diving and snorkeling sites. Indigenous Andaman Islanders inhabit the more remote islands, many of which are off limits to visitors.</h5>
+                </div>
+            </div>
+        <div class="carousel-item">
+            <img src="./img/bali.jpg" alt="Chicago" width="1100" height="500">
+            <div class="carousel-caption">
+                <h1>Bali</h1>
+                <h5 style="font-weight: bold;">Bali is a province of Indonesia and the westernmost of the Lesser Sunda Islands. East of Java and west of Lombok, the province includes the island of Bali and a few smaller offshore islands, notably Nusa Penida, Nusa Lembongan, and Nusa Ceningan to the southeast.</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/maldives.jpg" alt="New York" width="1100" height="500">
+            <div class="carousel-caption">
+                <h1>Maldives</h1>
+                <h5 style="color: black; font-weight: bold;">The Maldives, officially the Republic of Maldives, is an archipelagic state in South Asia, situated in the Indian Ocean. It lies southwest of Sri Lanka and India, about 750 kilometres from the Asian continent's mainland.</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/fiji.jpg" alt="New York" width="1100" height="500">
+            <div class="carousel-caption">
+                <h1>Fiji</h1>
+                <h5 style="color: black; font-weight: bold;">Fiji, country and archipelago in the South Pacific Ocean. It surrounds the Koro Sea about 1,300 miles (2,100 km) north of Auckland, New Zealand.
+                    The archipelago consists of some 300 islands and 540 islets scattered over about 1,000,000 square miles (3,000,000 square km).</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/bora.jpg" alt="New York" width="1100" height="500">
+            <div class="carousel-caption">
+                <h1>Bora Bora</h1>
+                <h5 style="color: black; font-weight: bold;">Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by a coral reef, it’s known for its scuba diving. It's also a popular luxury resort destination where some guest bungalows are perched over the water on stilts.</h5>
+            </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</body>
+</html>
